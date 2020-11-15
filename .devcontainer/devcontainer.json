@@ -31,14 +31,16 @@
 		"explorer.openEditors.visible": 0,
 		"python.showStartPage": false,
 		"python.workspaceSymbols.exclusionPatterns": [
-			"pythonenv*",
-		]
+			"pythonenv3.8",
+		],
+		"git.autofetch": true,
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python",
-		"ms-vsliveshare.vsliveshare"
+		"ms-vsliveshare.vsliveshare",
+		"ms-python.vscode-pylance"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
